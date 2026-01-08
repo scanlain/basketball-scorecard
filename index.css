@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url('court.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    width: 45%;
+    padding-block: 50px;
+}
+
+.score-section{
+    border: 1px dashed gold;
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+    background-color: blanchedalmond;
+}
+
+.score-btn{
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    background-color: cornsilk;
+    border: 1px solid goldenrod;
+}
+
+#reset-score-btn{
+    border: 1px solid grey;
+    background-color:silver;
+    color: azure;
+    display: block;
+    width: 250px;
+    font-size: 2rem;
+    margin: 30px auto;
+    padding: 10px 20px;
+}
